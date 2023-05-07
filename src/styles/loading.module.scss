@@ -9,30 +9,36 @@
   top: 0;
   left: 0;
   z-index: 9999;
-  opacity: 1;
-  transition: 1s;
-}
-
-.loading.hidden {
-  display: none;
-}
-
-.title {
-  font-size: 1.2rem;
-  color: #fff;
-  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease-in-out;
 }
 
 .loading.hidden {
   opacity: 0;
 }
 
+.title {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  animation: fadeTitle;
+  transition: opacity .3s ease-in-out;
+}
+
+.title.fadeIn {
+  opacity: 1;
+}
+
 .loading.fadeIn {
   opacity: 1;
-  transition: opacity 3s ease-in-out;
 }
 
 .loading.fadeOut {
+  opacity: 0;
+}
+
+.loading.hidden .title {
   opacity: 1;
-  transition: opacity 3s ease-in-out;
 }

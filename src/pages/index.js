@@ -6,13 +6,15 @@ import About from './components/About'
 import Works from './components/Works'
 import Loading from './loading'
 import { useState, useEffect } from 'react'
+
+
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false)
-    }, 1000)
+    }, 3000)
   }, [])
 
   return (

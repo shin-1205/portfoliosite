@@ -1,6 +1,7 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(146, 126, 126);
   color: #333;
+  background: url('https://beiz.jp/images_P/white/white_00015.jpg') no-repeat;
 }
 
 .container {
@@ -38,10 +39,11 @@ header {
         a {
           transition: .3s;
           transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 2.5);
-          // color: #fff;
+          width: 100px;
+          text-align: center;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.2);
             cursor: pointer;
             color: rgb(241, 162, 162);
             background-color: #fefefe;
@@ -101,7 +103,7 @@ header {
     }
 
     .right {
-      color: rgb(230, 230, 230);
+      color: #fff;
       // background: rgba(241, 235, 235, 0.6);
       width: 100%;
       height: 400px;
@@ -176,11 +178,11 @@ header {
 
 
         img {
-          transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 2.5);
+          transition: .3s;
           border-radius: 10px;
 
           &:hover {
-            transform: scale(1.05);
+            // transform: scale(1.05);
             opacity: .6;
 
 
@@ -202,19 +204,21 @@ header {
         .bubbly-button {
           cursor: pointer;
           transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 2.5);
-
+          font-weight: bold;
 
           &:hover {
             background-color: #ffff;
             transform: scale(1.1);
+            color: #c95e62;
 
           }
 
-          background-color: rgba(255, 221, 221, 0.4);
-          color: #ff0081;
+          background-color: rgb(241, 162, 162);
+          color: #ffff;
           border: none;
           padding: 15px;
           border-radius: 10px;
+          // border: 2px solid #c95e62;
 
         }
       }
