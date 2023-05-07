@@ -336,6 +336,12 @@ footer {
       padding: 0;
       width: 100%;
       gap: 20px;
+
+      &:hover {
+        transform: scale(1);
+
+
+      }
     }
   }
 }
