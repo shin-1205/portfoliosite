@@ -37,10 +37,15 @@ header {
 
         a {
           transition: .3s;
+          transition: transform 0.25s cubic-bezier(0.68, -0.55, 0.265, 2.5);
+          // color: #fff;
 
           &:hover {
+            transform: scale(1.1);
             cursor: pointer;
             color: rgb(241, 162, 162);
+            background-color: #fefefe;
+            border-radius: 30%;
           }
 
         }
@@ -51,9 +56,7 @@ header {
 
 
 .hero {
-  background: url('../assets/KUMA1892062_TP_V.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #c95e62;
   height: 400px;
   padding: 50px;
   overflow: hidden;

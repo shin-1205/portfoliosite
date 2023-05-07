@@ -15,8 +15,9 @@ export default function () {
 
           <nav>
             <ul>
-              <a>About</a>
-              <a>Works</a>
+              <a href='https://github.com/shin-1205' rel='noopener noreferrer' target='_blank'>
+                Github
+              </a>
             </ul>
           </nav>
         </div>
