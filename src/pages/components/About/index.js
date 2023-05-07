@@ -10,8 +10,8 @@ export default function () {
 
 
 
-          <div className='left' >
-          </div>
+          <div className='left' />
+
           <div className='left2' />
           <div className='left3' />
 

@@ -84,6 +84,7 @@ header {
       left: 10%;
       top: -180px;
 
+
       text-align: center;
       animation: spin 16s infinite;
 
@@ -98,6 +99,7 @@ header {
       position: absolute;
       left: 10%;
       bottom: 5%;
+
       animation: spin 10s infinite;
 
     }
@@ -111,6 +113,8 @@ header {
       border-radius: 50% 20% / 10% 40%;
       font-weight: 500;
       transition: .3s;
+
+
 
       h2 {
         margin: 0 0 50px 0;
@@ -306,6 +310,7 @@ footer {
 
     .container {
 
+
       .left2 {
         width: 400%;
         height: 190%;
@@ -321,12 +326,10 @@ footer {
 
       }
 
-      .left {
-        display: none;
-      }
 
       .right {
         padding: 0;
+
       }
     }
   }
