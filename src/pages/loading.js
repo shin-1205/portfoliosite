@@ -25,6 +25,7 @@ export default function Loading({ isLoading }) {
   }, [isLoading])
 
 
+
   return (
     <div className={`${styles.loading} ${isHidden ? styles.hidden : ''} ${isLoading ? styles.fadeIn : styles.fadeOut}`}>
       <h1 className={`${styles.title} ${isLoading ? styles.fadeIn : 'fadeIn'}`}>
