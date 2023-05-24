@@ -2,6 +2,7 @@ import styles from '../styles/loading.module.scss'
 import Typewriter from 'typewriter-effect';
 import { useEffect, useState } from 'react'
 
+
 export default function Loading({ isLoading }) {
   const [isHidden, setIsHidden] = useState(true)
 
